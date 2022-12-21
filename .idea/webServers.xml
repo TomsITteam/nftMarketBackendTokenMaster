@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="df94533c-bb62-45c0-9968-b67f3282c458" name="sftp">
+        <fileTransfer rootFolder="/var/www/html/nft-market-backend" accessType="SFTP" host="3.35.238.76" port="22" sshConfigId="684ae79e-9e63-4e4f-b1ce-f572b228256c" sshConfig="ubuntu@3.35.238.76:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
